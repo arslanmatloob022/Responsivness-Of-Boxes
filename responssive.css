@@ -1,0 +1,106 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: antiquewhite;
+}
+.main {
+  margin: 0;
+  height: 1600px;
+}
+
+.rowOne {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+.bloack {
+  padding: 120px;
+  margin-left: 10px;
+  background-color: rgb(7, 158, 45);
+  border: 2px solid rgb(37, 177, 8);
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+.rowOnecolfirst {
+  height: 100%;
+  padding: 10px;
+}
+.boxRow {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  height: 50%;
+}
+.boxes {
+  background-color: rgb(7, 158, 45);
+  border-radius: 5px;
+  padding: 60px;
+}
+.colAdd {
+  display: none;
+}
+
+/* Row Two  */
+.rowTwo {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+/* Second bloack with max width */
+.blockBox {
+  background-color: rgb(7, 158, 45);
+  height: 18%;
+  width: 96%;
+  padding: 100px 80px;
+  background-color: rgb(7, 158, 45);
+}
+.secondRow {
+  display: flex;
+  justify-content: space-around;
+}
+/* Second Addition of blocks */
+.secondAdd {
+  display: none;
+}
+
+/* third Row */
+.rowThree {
+  margin-top: 20px;
+  width: 98%;
+  display: flex;
+  justify-content: center;
+}
+.thirdRow {
+  margin-left: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+/* Media Queries */
+@media screen and (max-width: 990px) {
+  .colAdd {
+    display: block;
+    background-color: rgb(7, 158, 45);
+  }
+}
+
+@media screen and (max-width: 764px) {
+  .rowOnecolfirst {
+    display: none;
+  }
+  .blockBox {
+    display: none;
+  }
+  .secondRow {
+    display: flex;
+    justify-content: space-around;
+  }
+  .secondAdd {
+    display: block;
+    background-color: rgb(7, 158, 45);
+    border-radius: 5px;
+    padding: 60px;
+  }
+}
