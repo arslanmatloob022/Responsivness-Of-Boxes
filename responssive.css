@@ -14,7 +14,8 @@ body {
   height: auto;
 }
 .bloack {
-  padding: 120px;
+  margin-top: 20px;
+  padding: 150px;
   margin-left: 10px;
   background-color: rgb(7, 158, 45);
   border: 2px solid rgb(37, 177, 8);
@@ -33,6 +34,7 @@ body {
   height: 50%;
 }
 .boxes {
+  margin-top: 20px;
   background-color: rgb(7, 158, 45);
   border-radius: 5px;
   padding: 60px;
@@ -51,8 +53,9 @@ body {
 }
 /* Second bloack with max width */
 .blockBox {
+  margin-top: 20px;
   background-color: rgb(7, 158, 45);
-  height: 18%;
+  height: 20%;
   width: 96%;
   padding: 100px 80px;
   background-color: rgb(7, 158, 45);
@@ -74,9 +77,9 @@ body {
   justify-content: center;
 }
 .thirdRow {
-  margin-left: 12px;
+  /* margin-left: 12px; */
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 /* Media Queries */
 @media screen and (max-width: 990px) {
